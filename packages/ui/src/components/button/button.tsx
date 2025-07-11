@@ -6,7 +6,7 @@ import {
 } from "@mui/material";
 import clsx from "clsx";
 
-interface CustomButtonProps extends MuiButtonProps {
+export interface CustomButtonProps extends MuiButtonProps {
   className?: string;
 }
 
