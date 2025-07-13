@@ -28,6 +28,8 @@ export const Spinner = ({
   return (
     <div className={clsx("inline-flex items-center justify-center", className)}>
       <CircularProgress
+        aria-label="Progress Bar"
+        role="progressbar"
         size={sizeMap[size]}
         color={colorVariant === "light" ? "inherit" : colorVariant}
         {...rest}

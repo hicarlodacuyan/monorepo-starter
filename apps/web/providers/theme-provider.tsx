@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { createTheme, Theme } from "@mui/material/styles";
-import { blue, pink } from "@mui/material/colors";
+import { blue, pink, purple } from "@mui/material/colors";
 import { UiProvider } from "@repo/ui/theme/UiProvider";
 import { Spinner } from "@repo/ui/components/spinner/spinner";
 
@@ -20,7 +20,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
       await sleep(500);
 
       const mockTenantTheme = {
-        primaryColor: blue[500],
+        primaryColor: purple[500],
         secondaryColor: pink[300],
       };
 
