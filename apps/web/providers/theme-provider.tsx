@@ -3,7 +3,8 @@
 import * as React from "react";
 import { createTheme, Theme } from "@mui/material/styles";
 import { blue, pink } from "@mui/material/colors";
-import { Spinner, UiProvider } from "@repo/ui/index";
+import { UiProvider } from "@repo/ui/theme/UiProvider";
+import { Spinner } from "@repo/ui/components/spinner/spinner";
 
 type ThemeProviderProps = {
   children: React.ReactNode;
